@@ -1,0 +1,26 @@
+{
+  "name": "08-petshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e ts,json,mustache src/serve.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mustache-express": "^1.3.2",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mustache-express": "^1.2.2",
+    "@types/node": "^17.0.42",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
